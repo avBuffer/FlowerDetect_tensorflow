@@ -16,6 +16,7 @@ git clone --recursive https://github.com/avBuffer/FlowerDetect_tensorflow.git
 ```
 * Read get_flower_data.txt and the get flowers data
 1> Download site: http://download.tensorflow.org/example_images/flower_photos.tgz
+
 2> Unzip flower_photos.tgz and move to data folder 
 ```shell
 cd FlowerDetect_tensorflow/data
