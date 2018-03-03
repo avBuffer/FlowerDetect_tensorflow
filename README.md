@@ -13,10 +13,17 @@ How to train and verify flowers by using CNN based on tensorflow?
 * Scripts
 ```shell
 git clone --recursive https://github.com/avBuffer/FlowerDetect_tensorflow.git
-cd FlowerDetect_tensorflow/data
 ```
-read get_flower_data.txt and the get flowers data
+* Read get_flower_data.txt and the get flowers data
+1> Download site: http://download.tensorflow.org/example_images/flower_photos.tgz
+2> Unzip flower_photos.tgz and move to data folder 
+```shell
+cd FlowerDetect_tensorflow/data
+tar -zxvf flower_photos.tgz 
+mv flower_photos data/flowers
+```
 
+* Train and detect flowers
 ```shell
 cd FlowerDetect_tensorflow/src
 python flower_train.py
@@ -32,9 +39,6 @@ python flower_detect.py
 ## Wechat&QQ group 
 * I setup VoAI Wechat group, which discusses AI/DL/ML/NLP.
 * VoAI means Voice of AI, Vision of AI, Visualization of AI etc.
-* You can joint VoAI Wechat group by scanning QR-code in path ./imgs/VoAI.jpg.
-* ![QR-code](./imgs/VoAI.jpg)
-
 * Also you can joint QQ group ID: 183669028
 
 Any comments or issues are also welcomed.Thanks!
