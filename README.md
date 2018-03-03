@@ -15,9 +15,8 @@ How to train and verify flowers by using CNN based on tensorflow?
 git clone --recursive https://github.com/avBuffer/FlowerDetect_tensorflow.git
 ```
 * Read get_flower_data.txt and the get flowers data
-1> Download site: http://download.tensorflow.org/example_images/flower_photos.tgz
-
-2> Unzip flower_photos.tgz and move to data folder 
+** Download site: http://download.tensorflow.org/example_images/flower_photos.tgz
+** Unzip flower_photos.tgz and move to data folder 
 ```shell
 cd FlowerDetect_tensorflow/data
 tar -zxvf flower_photos.tgz 
