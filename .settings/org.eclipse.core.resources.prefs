@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/cnnNet.py=utf-8
+encoding//src/config.py=utf-8
+encoding//src/flower_detect.py=utf-8
+encoding//src/flower_train.py=utf-8
+encoding//src/utils.py=utf-8

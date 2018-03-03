@@ -1,0 +1,8 @@
+How to get flower data
+
+1> Download site:
+http://download.tensorflow.org/example_images/flower_photos.tgz
+
+2> unzip  flower_photos.tgz and move to data folder 
+2.1> tar -zxvf flower_photos.tgz 
+2.2> mv flower_photos data/flowers
